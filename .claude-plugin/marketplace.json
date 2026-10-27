@@ -1,0 +1,19 @@
+{
+  "name": "gauge",
+  "owner": {
+    "name": "Gauge",
+    "url": "https://withgauge.com"
+  },
+  "metadata": {
+    "description": "Gauge plugins for Claude: AI search visibility with Gauge Chat and coding-agent measurement with Gauge Agents."
+  },
+  "plugins": [
+    {
+      "name": "gauge",
+      "source": "./",
+      "description": "Track how your brand shows up in AI search, act on recommendations, and measure how coding agents use your product with Gauge Agents.",
+      "homepage": "https://docs.withgauge.com",
+      "keywords": ["gauge", "ai-search", "ai-visibility", "agent-experience", "evals"]
+    }
+  ]
+}

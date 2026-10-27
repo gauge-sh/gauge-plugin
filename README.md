@@ -35,11 +35,21 @@ on them, and set up checks without learning every tool and command.
 
 ## Install
 
-- **Claude.ai and Cowork:** add the plugin from the plugin directory in
-  **Customize > Plugins**, then connect the Gauge connector from the plugin's
-  **Connectors** tab and sign in with your Gauge account.
-- **Claude Code:** run `/plugin` and install Gauge from the directory, or test a
-  local copy with `claude --plugin-dir ./gauge-claude-plugin`.
+- **Claude.ai and Cowork:** go to **Customize > Plugins > Add > Add
+  marketplace**, enter `gauge-sh/gauge-plugin`, and install Gauge. Then open
+  the plugin's **Connectors** tab, connect the Gauge connector, and sign in
+  with your Gauge account. On Team and Enterprise plans, an owner may need to
+  allow user-added plugins and add the connector for the organization first.
+- **Claude Code:** install from this repository:
+
+  ```text
+  /plugin install gauge --marketplace gauge-sh/gauge-plugin
+  ```
+
+  The Gauge server starts with the plugin. If `/mcp` shows it as needing
+  authentication, select it and sign in with your Gauge account. To try a
+  local checkout instead, start Claude Code with
+  `claude --plugin-dir ./gauge-plugin`.
 
 ## Requirements
 
