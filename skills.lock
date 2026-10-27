@@ -1,0 +1,5 @@
+# Skills copied from gauge-sh/gauge-skills. Edit them there, then run
+# scripts/sync-skills.sh to update the copies under skills/.
+repo=https://github.com/gauge-sh/gauge-skills.git
+commit=535965bf9ac6c228e63284778856523fa67d7bf1
+skills=gauge-agents gauge-chat

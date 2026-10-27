@@ -1,0 +1,25 @@
+{
+  "name": "gauge",
+  "displayName": "Gauge",
+  "version": "0.1.0",
+  "description": "Work with Gauge from Claude: track how your brand shows up in AI search (ChatGPT, Perplexity, Gemini, Google AI Overviews), act on recommendations and create content, and measure how coding agents discover and use your product with Gauge Agents evals and PR checks.",
+  "license": "MIT",
+  "author": {
+    "name": "Gauge",
+    "url": "https://withgauge.com"
+  },
+  "privacyPolicyUrl": "https://www.withgauge.com/privacy-policy",
+  "termsOfServiceUrl": "https://www.withgauge.com/terms-of-service",
+  "homepage": "https://docs.withgauge.com",
+  "keywords": [
+    "gauge",
+    "ai-search",
+    "ai-visibility",
+    "geo",
+    "seo",
+    "content",
+    "agent-experience",
+    "evals",
+    "developer-tools"
+  ]
+}
