@@ -1,8 +1,9 @@
 {
   "name": "gauge",
   "displayName": "Gauge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Work with Gauge from Claude: track how your brand shows up in AI search (ChatGPT, Perplexity, Gemini, Google AI Overviews), act on recommendations and create content, and measure how coding agents discover and use your product with Gauge Agents evals and PR checks.",
+  "icon": "./.claude-plugin/icon.png",
   "license": "MIT",
   "author": {
     "name": "Gauge",
